@@ -6,6 +6,6 @@ const powerCalculator = function(base, power) {
       return 1;
     }
     return base * powerCalculator(base, power - 1)
-  }
-  
-  powerCalculator(10, 5);
+}
+
+powerCalculator(10, 5);

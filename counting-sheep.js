@@ -3,9 +3,8 @@ const countingSheep = function(num) {
       console.log("All sheep jumped over the fence");
       return;
     }
-  
     console.log(num + ": Another sheep jumped over the fence");
     countingSheep(num - 1);
-  }
-  
-  countingSheep(4);
+}
+
+countingSheep(4);
